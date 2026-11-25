@@ -1,3 +1,20 @@
+Rewrite the README Licensing section to match how .LICENSE files are
+actually written and how CRE reads them.
+- Replace the "#" comment instruction with "comment" lines. Every sidecar
+  already uses "comment", and CRE has no "#" comment syntax.
+- Define the key order: comment, sourcename, sourceurl, license, licenseurl.
+- Add rules for what each field may contain.
+- Add file rules: UTF-8, LF line endings, final newline, no blank lines,
+  no trailing spaces.
+- Add a table of standard license names with one URL for each.
+- Replace the pointer to depositbox.base.LICENSE with three inline examples.
+- Add a section on checking sidecars with CRE "Reports > Licenses checks".
+- Explain that wall pieces name_0 to name_F can share one sidecar.
+- Require sidecar names to be unique across the whole tree.
+- Fix two doubled-word typos.
+README
+Rick Tanner 2026-Nov-24
+
 Enlarge the canvas size for the trading post graphic from 150px to
 160px wide.
 shop/trading-post.base.x11.png

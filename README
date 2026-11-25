@@ -40,25 +40,138 @@ by tools such as optipng or pngcrush.
 
 Licensing
 ~~~~~~~~~
-When adding new artwork, add a sidecar file containing the licensing
-information. Use freeform text comments marked by "#" to describe the origins,
-author, and link to the source if applicable. After the comments, use a
-"license" line to state the license name, and and "licenseurl" line to link to
-the full license text. Also, use a "sourcename" line to specify the
-author's or licensor's name or handle, and a "sourceurl" line to link to the
-most original source possible, if it's publicly available on the internet.
+When adding new artwork, add a .LICENSE sidecar file containing the
+licensing information. See ".LICENSE sidecar names" below for how to name
+the file.
 
-If some piece of information has several values, like multiple contributing
-authors, feel free to add another line for each item, like one "sourcename"
-line for each author.
+If creating or adapting new artwork for the project, a Creative Commons
+license is preferred, but other FOSS-type licenses are acceptable.
 
-The license sidecar file name can vary based on the item type.
+File format
+^^^^^^^^^^^
+Each line is a key, a single space, and a value. Keys are lowercase.
+Lines must appear in this order:
 
-As an example of how to format the sidecar file, reference
-"/misc/Container/depositbox.base.LICENSE"
+----
+comment      0 or more   Freeform notes on origin, changes, and history
+sourcename   1 or more   Author or licensor name or handle, one per line
+sourceurl    0 or 1      URL of the most original public source, placed
+                         directly after the sourcename it belongs to
+license      exactly 1   License identifier (see table below)
+licenseurl   exactly 1   Link to the full license text; omit only when
+                         license is "unknown"
+----
 
-If creating or adapting new artwork for the project, a Creative Commons license
-is preferred, but other FOSS-type licenses are acceptable.
+File rules:
+
+  - Plain text, UTF-8, Unix (LF) line endings.
+  - End the file with a newline.
+  - No blank lines and no trailing spaces.
+
+Field rules
+^^^^^^^^^^^
+comment::
+  Describe where the art came from, who changed it, and when. Use as many
+  comment lines as needed. Put notes about open questions here, starting
+  with "TODO:", for example "comment TODO: confirm GPL version". If the art
+  was derived from another Crossfire face, name that face here.
+
+sourcename::
+  One person or group per line. Do not put years, license names, or other
+  notes in this field; use a comment line instead. If the author is not
+  known, use "sourcename unknown".
+
+sourceurl::
+  A URL only. Do not use email addresses or file names. If there is no
+  public source, leave this line out and say so in a comment line.
+
+license::
+  Exactly one license line per file, using a value from the table below.
+
+licenseurl::
+  Use the URL listed in the table below for the chosen license.
+
+License values
+^^^^^^^^^^^^^^
+Use SPDX identifiers (https://spdx.org/licenses/) where one exists.
+
+----
+license            licenseurl
+-----------------  ----------------------------------------------------------
+CC0-1.0            https://creativecommons.org/publicdomain/zero/1.0/legalcode
+CC-BY-2.0          https://creativecommons.org/licenses/by/2.0/legalcode
+CC-BY-3.0          https://creativecommons.org/licenses/by/3.0/legalcode
+CC-BY-4.0          https://creativecommons.org/licenses/by/4.0/legalcode
+CC-BY-SA-1.0       https://creativecommons.org/licenses/by-sa/1.0/legalcode
+CC-BY-SA-2.0       https://creativecommons.org/licenses/by-sa/2.0/legalcode
+CC-BY-SA-3.0       https://creativecommons.org/licenses/by-sa/3.0/legalcode
+CC-BY-SA-4.0       https://creativecommons.org/licenses/by-sa/4.0/legalcode
+GPL-2.0-only       https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+GPL-2.0-or-later   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+LGPL-2.1-only      https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+public-domain      https://en.wikipedia.org/wiki/Public_domain
+unknown            (no licenseurl line)
+----
+
+If the license is not in this table, use its SPDX identifier and official
+license URL, and add it to this table in the same commit.
+
+Use "unknown" only when the origin really cannot be determined. Add comment
+lines recording whatever is known, such as where the art was found and
+roughly when, so it can be researched later.
+
+Examples
+^^^^^^^^
+Original artwork, one author:
+
+----
+comment Original artwork by Saiapatsu, created for Crossfire.
+comment Direct submission, not published elsewhere.
+sourcename Saiapatsu
+license CC0-1.0
+licenseurl https://creativecommons.org/publicdomain/zero/1.0/legalcode
+----
+
+Derived artwork, two sources:
+
+----
+comment By Saiapatsu, with elements of original artwork by David Gervais.
+sourcename Saiapatsu
+sourceurl https://sourceforge.net/p/crossfire/patches/449/
+sourcename David Gervais
+sourceurl http://pousse.rapiere.free.fr/tome/
+license CC-BY-3.0
+licenseurl https://creativecommons.org/licenses/by/3.0/legalcode
+----
+
+Unknown origin:
+
+----
+comment Original author unknown. Modified for use with CF.
+comment Appears to come from the RLTiles set.
+sourcename unknown
+sourceurl http://rltiles.sourceforge.net/
+license unknown
+----
+
+Checking license files
+^^^^^^^^^^^^^^^^^^^^^^
+License files are read by CRE (crossfire-server/utils/cre), not by the game
+server or the clients. In CRE, use "Reports > Licenses checks" to list:
+
+  - license files whose face name does not match any defined face
+  - license files whose image set (such as "base" or "clsc") does not match
+    any defined faceset
+  - every field name used in license files, which shows misspelled keys
+
+Selecting a faceset in CRE also shows how many of its faces have license
+information. CRE does not check field order or license values, so review
+those against this section by hand.
+
+CRE splits each line at the first space into a field name and a value. A
+line with no space is reported as malformed and ignored. Lines starting
+with "#" are not treated as comments; they are stored as a field named "#".
+Use "comment" lines instead.
 
 Perspective
 ~~~~~~~~~~~
@@ -90,15 +203,33 @@ have a 3-digit extension in the form of '.PDA', where:
     D:: coding, or any other instance coding in
     A:: animation phase
 
-.License sidecar names
+.LICENSE sidecar names
 
 When an artwork file would be 'name.imageset.PDA.png', the license sidecar
 should be 'name.imageset.LICENSE'. For example,
 '/misc/Container/depositbox.base.111.png' has a sidecar file
-'/misc/Container/depositbox.base.LICENSE'. Note that the the "P/D/A" suffix
-is omitted. We also do not specify that the license is for the .png file only,
-in case we have both a vector image and raster image, in which case it is
-assumed to apply to both.
+'/misc/Container/depositbox.base.LICENSE'. Note that the "P/D/A" suffix
+is omitted. One sidecar covers every face of that name and image set
+(all directions, frames, and parts).
+
+We also do not specify that the license is for the .png file only, in case
+we have both a vector image and raster image, in which case it is assumed
+to apply to both.
+
+Wall pieces: faces named 'name_0' through 'name_F' (a trailing underscore
+and one character 0-9 or A-F) can share one sidecar named without that
+suffix. For example, '/wall/stwall/stwall.base.LICENSE' covers
+'stwall_0.base.111.png' through 'stwall_F.base.111.png'. A sidecar that
+matches the full face name exactly, such as 'stwall_3.base.LICENSE', takes
+priority over the shared one.
+
+Unique names: the directory is not part of the license lookup, only the
+file name. Every 'name.imageset.LICENSE' must be unique across the whole
+archetype tree. If two directories contain sidecars with the same name and
+image set, their fields are silently merged into one entry.
+
+The --license option of utils/make_face_from_files.py and
+utils/split_aura_picture.py copies a sidecar into place using this naming.
 
 Numbering (PDA)
 ^^^^^^^^^^^^^^^
