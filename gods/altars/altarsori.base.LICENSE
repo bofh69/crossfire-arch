@@ -1,0 +1,13 @@
+comment Original artwork by David Sundqvist, created for the new Crossfire pantheon in January 1999.
+comment Gorlin posted the XPM to the crossfire mailing list on 1999-01-22 ("Sorig Altar (Temples/Map Update)"); David Sundqvist confirmed the same day that he had created it and sent it in.
+comment First released in Crossfire 0.95.2 (release files dated 1999-01-31) as indoor/altars/altarsori.111.xpm, dated 1999-01-29, with its hex colours replaced by X11 colour names; the pixels are identical to the mailing-list version.
+comment The 0.95.2 XPM is byte-identical to the 1999-03-29 CVS import.
+comment Converted to PNG by mwedel in 2000, renamed to altarsori.base.111.png at 32x32 in 2001, recompressed by akirschbaum in 2008.
+comment Animation frames 112-116 added by ryo_saeba on 2007-12-07 (commit 47e56295a), built on frame 111.
+comment License from the 0.95.2 distribution, which ships the GPL v2 License file and a README notice allowing version 2 or any later version.
+comment TODO: confirm ryo_saeba's frames are under the same license.
+sourcename David Sundqvist
+sourceurl https://crossfire.real-time.com/download/mailing-list-archive/html/1999-January/msg01885.html
+sourcename ryo_saeba
+license GPL-2.0-or-later
+licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

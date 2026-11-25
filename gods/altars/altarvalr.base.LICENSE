@@ -1,0 +1,14 @@
+comment Original artwork by David Sundqvist, created for Crossfire and first released in Crossfire 0.93.3 (README dated 1997-04-24).
+comment Not present in 0.93.2; added as indoor/altars/altarjeho.111 (24x24 XBM) and altarjeho.111.xpm, files dated 1997-04-15 and 1997-04-16.
+comment Renamed from altarjeho to altarvalr in Crossfire 0.95.2 (January 1999) with pixel-identical XPM data.
+comment The 0.95.2 altarvalr.111.xpm is byte-identical to the 1999-03-29 CVS import.
+comment The 0.93.3 README and CHANGES credit David Sundqvist with many new images and the specialized altars.
+comment Converted to PNG by mwedel in 2000, renamed to altarvalr.base.111.png at 32x32 in 2001, recompressed by akirschbaum in 2008.
+comment Frame 111 modified (candles moved closer) and animation frames 112-113 added by ryo_saeba on 2011-08-11 (commit 2e0424861).
+comment License from the 0.93.3 distribution, which ships the GPL v2 License file and a README notice allowing version 2 or any later version.
+comment TODO: confirm ryo_saeba's changes are under the same license.
+sourcename David Sundqvist
+sourceurl https://crossfire.real-time.com/download/archive/crossfire-0.93.3.arch.tar.gz
+sourcename ryo_saeba
+license GPL-2.0-or-later
+licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

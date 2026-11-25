@@ -1,0 +1,9 @@
+comment Godly intervention animation frames 111-115 for the Altar of Valriel by ryo_saeba, added on 2011-08-11 (commit 6bdb2a248).
+comment Built on the altarvalr artwork by David Sundqvist, first released in Crossfire 0.93.3 as altarjeho.
+comment No public source outside the Crossfire repository for ryo_saeba's frames, so they have no sourceurl.
+comment TODO: confirm ryo_saeba's frames are under GPL-2.0-or-later like the altarvalr artwork.
+sourcename ryo_saeba
+sourcename David Sundqvist
+sourceurl https://crossfire.real-time.com/download/archive/crossfire-0.93.3.arch.tar.gz
+license GPL-2.0-or-later
+licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

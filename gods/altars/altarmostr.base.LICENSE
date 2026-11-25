@@ -1,0 +1,10 @@
+comment Original artwork by David Sundqvist, created for Crossfire and first released in Crossfire 0.93.3 (README dated 1997-04-24).
+comment Not present in 0.93.2; added as indoor/altars/altarmostr.111 (24x24 XBM) and altarmostr.111.xpm, files dated 1997-04-15 and 1997-04-16.
+comment The 0.93.3 XBM and XPM are byte-identical to the 1999-03-29 CVS import.
+comment The 0.93.3 README and CHANGES credit David Sundqvist with many new images and the specialized altars.
+comment Converted to PNG by mwedel in 2000, renamed to altarmostr.base.111.png at 32x32 in 2001, recompressed by akirschbaum in 2008.
+comment License from the 0.93.3 distribution, which ships the GPL v2 License file and a README notice allowing version 2 or any later version.
+sourcename David Sundqvist
+sourceurl https://crossfire.real-time.com/download/archive/crossfire-0.93.3.arch.tar.gz
+license GPL-2.0-or-later
+licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

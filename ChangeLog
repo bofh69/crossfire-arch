@@ -1,3 +1,21 @@
+Add .LICENSE sidecars for all 13 face sets in gods/altars, crediting
+David Sundqvist's original 0.93.3 and 0.95.2 altar art (sourced from 
+the release archive and the January 1999 mailing list) and the later 
+artwork by ryo_saeba, temitchell, and lalo, under GPL-2.0-or-later.
+gods/altars/altardevo.base.LICENSE
+gods/altars/altargaea.base.LICENSE
+gods/altars/altargnarg.base.LICENSE
+gods/altars/altargoro.base.LICENSE
+gods/altars/altarixalovh.base.LICENSE
+gods/altars/altarlyth.base.LICENSE
+gods/altars/altarmostr.base.LICENSE
+gods/altars/altarnone.base.LICENSE
+gods/altars/altarrugg.base.LICENSE
+gods/altars/altarsori.base.LICENSE
+gods/altars/altarvalk.base.LICENSE
+gods/altars/altarvalr.base.LICENSE
+Rick Tanner 2026-Nov-25
+
 Rewrite the README Licensing section to match how .LICENSE files are
 actually written and how CRE reads them.
 - Replace the "#" comment instruction with "comment" lines. Every sidecar
