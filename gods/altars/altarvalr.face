@@ -10,6 +10,26 @@ face altarvalr.113
 magicmap grey
 visibility 50
 end
+face altarvalr_intervention.111
+magicmap grey
+visibility 50
+end
+face altarvalr_intervention.112
+magicmap grey
+visibility 50
+end
+face altarvalr_intervention.113
+magicmap grey
+visibility 50
+end
+face altarvalr_intervention.114
+magicmap grey
+visibility 50
+end
+face altarvalr_intervention.115
+magicmap grey
+visibility 50
+end
 animation altar_valriel
 altarvalr.111
 altarvalr.112
