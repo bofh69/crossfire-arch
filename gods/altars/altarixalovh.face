@@ -2,3 +2,45 @@ face altarixalovh.111
 magicmap grey
 visibility 50
 end
+face altarixalovh.112
+magicmap grey
+visibility 50
+end
+face altarixalovh.113
+magicmap grey
+visibility 50
+end
+face altarixalovh.114
+magicmap grey
+visibility 50
+end
+face altarixalovh_intervention.111
+magicmap grey
+visibility 50
+end
+face altarixalovh_intervention.112
+magicmap grey
+visibility 50
+end
+face altarixalovh_intervention.113
+magicmap grey
+visibility 50
+end
+face altarixalovh_intervention.114
+magicmap grey
+visibility 50
+end
+animation altar_ixalovh
+altarixalovh.111
+altarixalovh.112
+altarixalovh.113
+altarixalovh.114
+altarixalovh.113
+altarixalovh.112
+mina
+animation altar_ixalovh_intervention
+altarixalovh_intervention.111
+altarixalovh_intervention.112
+altarixalovh_intervention.113
+altarixalovh_intervention.114
+mina

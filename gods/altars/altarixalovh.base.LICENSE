@@ -1,8 +1,10 @@
 comment Altar of Ixalovh by temitchell, added on 2004-01-01 (commit fc1c7ca86) together with the new goddess Ixalovh.
 comment Recommitted as a proper binary PNG by mwedel in 2006 and recompressed by akirschbaum in 2008.
+comment Animation frames 112-114 added by Rick Tanner on 2026-07-30, derived from frame 111.
 comment No public source outside the Crossfire repository, so there is no sourceurl.
 comment TODO: check whether it was built on another Crossfire altar face.
 comment TODO: confirm temitchell contributed it under GPL-2.0-or-later.
 sourcename temitchell
+sourcename Rick Tanner
 license GPL-2.0-or-later
 licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
