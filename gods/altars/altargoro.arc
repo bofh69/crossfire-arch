@@ -7,5 +7,6 @@ no_pick 1
 level 100
 anim_speed 0.5
 animation altar_gorokh
+anim_suffix intervention
 speed 0.5
 end

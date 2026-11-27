@@ -10,9 +10,31 @@ face altargoro.113
 magicmap grey
 visibility 50
 end
+face altargoro_intervention.111
+magicmap grey
+visibility 50
+end
+face altargoro_intervention.112
+magicmap grey
+visibility 50
+end
+face altargoro_intervention.113
+magicmap grey
+visibility 50
+end
+face altargoro_intervention.114
+magicmap grey
+visibility 50
+end
 animation altar_gorokh
 altargoro.111
 altargoro.112
 altargoro.111
 altargoro.113
+mina
+animation altar_gorokh_intervention
+altargoro_intervention.111
+altargoro_intervention.112
+altargoro_intervention.113
+altargoro_intervention.114
 mina
