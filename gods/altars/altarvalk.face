@@ -2,7 +2,45 @@ face altarvalk.111
 magicmap grey
 visibility 50
 end
+face altarvalk.112
+magicmap grey
+visibility 50
+end
+face altarvalk.113
+magicmap grey
+visibility 50
+end
+face altarvalk.114
+magicmap grey
+visibility 50
+end
+face altarvalk_intervention.111
+magicmap grey
+visibility 50
+end
+face altarvalk_intervention.112
+magicmap grey
+visibility 50
+end
+face altarvalk_intervention.113
+magicmap grey
+visibility 50
+end
+face altarvalk_intervention.114
+magicmap grey
+visibility 50
+end
 animation altar_valkyrie
 altarvalk.111
-altarvalk.121
+altarvalk.112
+altarvalk.113
+altarvalk.114
+altarvalk.113
+altarvalk.112
+mina
+animation altar_valkyrie_intervention
+altarvalk_intervention.111
+altarvalk_intervention.112
+altarvalk_intervention.113
+altarvalk_intervention.114
 mina

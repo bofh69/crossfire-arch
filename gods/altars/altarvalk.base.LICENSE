@@ -1,10 +1,10 @@
 comment Altar of Valkyrie by lalo, added on 2006-09-06 (commit 38ec4d328) together with the new god Valkyrie.
 comment Recommitted as a proper binary PNG by mwedel in 2006 and recompressed by akirschbaum in 2008.
-comment Frame 121 added by ryo_saeba on 2021-02-09 (commit b49b7a0c5) for the altar animation.
+comment Animation frames 112-114 added by Rick Tanner on 2026-07-30, derived from frame 111.
 comment No public source outside the Crossfire repository, so there is no sourceurl.
 comment TODO: check whether it was built on another Crossfire altar face.
-comment TODO: confirm lalo and ryo_saeba contributed it under GPL-2.0-or-later.
+comment TODO: confirm lalo contributed it under GPL-2.0-or-later.
 sourcename lalo
-sourcename ryo_saeba
+sourcename Rick Tanner
 license GPL-2.0-or-later
 licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html

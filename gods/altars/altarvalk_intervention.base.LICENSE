@@ -1,0 +1,10 @@
+comment Frame 111 by ryo_saeba, added on 2021-02-09 (commit b49b7a0c5) as altarvalk.base.121.png and renamed to altarvalk_intervention.base.111.png in 2026.
+comment Frames 112-114 added by Rick Tanner on 2026-07-30, derived from frame 111.
+comment Built on the altarvalk artwork by lalo, added on 2006-09-06 (commit 38ec4d328).
+comment No public source outside the Crossfire repository, so there is no sourceurl.
+comment TODO: confirm ryo_saeba and lalo contributed their artwork under GPL-2.0-or-later.
+sourcename ryo_saeba
+sourcename Rick Tanner
+sourcename lalo
+license GPL-2.0-or-later
+licenseurl https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
