@@ -2,3 +2,45 @@ face altarmostr.111
 magicmap grey
 visibility 50
 end
+face altarmostr.112
+magicmap grey
+visibility 50
+end
+face altarmostr.113
+magicmap grey
+visibility 50
+end
+face altarmostr.114
+magicmap grey
+visibility 50
+end
+face altarmostr_intervention.111
+magicmap grey
+visibility 50
+end
+face altarmostr_intervention.112
+magicmap grey
+visibility 50
+end
+face altarmostr_intervention.113
+magicmap grey
+visibility 50
+end
+face altarmostr_intervention.114
+magicmap grey
+visibility 50
+end
+animation altar_mostrai
+altarmostr.111
+altarmostr.112
+altarmostr.113
+altarmostr.114
+altarmostr.113
+altarmostr.112
+mina
+animation altar_mostrai_intervention
+altarmostr_intervention.111
+altarmostr_intervention.112
+altarmostr_intervention.113
+altarmostr_intervention.114
+mina
