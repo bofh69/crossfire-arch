@@ -22,3 +22,19 @@ face altarrugg.116
 magicmap grey
 visibility 50
 end
+face altarrugg_intervention.111
+magicmap grey
+visibility 50
+end
+face altarrugg_intervention.112
+magicmap grey
+visibility 50
+end
+face altarrugg_intervention.113
+magicmap grey
+visibility 50
+end
+face altarrugg_intervention.114
+magicmap grey
+visibility 50
+end
