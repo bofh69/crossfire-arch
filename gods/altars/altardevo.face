@@ -2,3 +2,45 @@ face altardevo.111
 magicmap grey
 visibility 50
 end
+face altardevo.112
+magicmap grey
+visibility 50
+end
+face altardevo.113
+magicmap grey
+visibility 50
+end
+face altardevo.114
+magicmap grey
+visibility 50
+end
+face altardevo_intervention.111
+magicmap grey
+visibility 50
+end
+face altardevo_intervention.112
+magicmap grey
+visibility 50
+end
+face altardevo_intervention.113
+magicmap grey
+visibility 50
+end
+face altardevo_intervention.114
+magicmap grey
+visibility 50
+end
+animation altar_devourers
+altardevo.111
+altardevo.112
+altardevo.113
+altardevo.114
+altardevo.113
+altardevo.112
+mina
+animation altar_devourers_intervention
+altardevo_intervention.111
+altardevo_intervention.112
+altardevo_intervention.113
+altardevo_intervention.114
+mina
