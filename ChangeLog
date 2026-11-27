@@ -1,3 +1,119 @@
+Add idle and godly intervention animations to the altars of the gods.
+- New idle animations (frames 112-114, played 111-112-113-114-113-112) for
+  the altars of Devourers, Gaea, Gnarg, Ixalovh, Lythander, Mostrai, and
+  Valkyrie. The first six .arc files gain animation, anim_speed 0.5 and
+  speed 0.5; Valkyrie's .arc already had them.
+- New four-frame intervention animations, played once when the god answers
+  a prayer, for Devourers, Gaea, Gnarg, Gorokh, Ixalovh, Lythander, Mostrai,
+  Ruggilli, Sorig, and Valkyrie; anim_suffix intervention added to their
+  .arc files where missing.
+- Valkyrie's existing intervention frame is renamed to match the
+  name_intervention.base.11N naming used by the other altars.
+- Declare face blocks for Valriel's existing intervention frames.
+- Add or update .LICENSE sidecars for every changed face set, crediting
+  the new frames to Rick Tanner and the base art to its original authors.
+renamed: gods/altars/altarvalk.base.121.png -> gods/altars/altarvalk_intervention.base.111.png
+gods/altars/altar_ruggilli.face
+gods/altars/altar_sorig.face
+gods/altars/altardevo.arc
+gods/altars/altardevo.face
+gods/altars/altardevo.base.112.png
+gods/altars/altardevo.base.113.png
+gods/altars/altardevo.base.114.png
+gods/altars/altardevo.base.LICENSE
+gods/altars/altardevo_intervention.base.111.png
+gods/altars/altardevo_intervention.base.112.png
+gods/altars/altardevo_intervention.base.113.png
+gods/altars/altardevo_intervention.base.114.png
+gods/altars/altardevo_intervention.base.LICENSE
+gods/altars/altargaea.arc
+gods/altars/altargaea.face
+gods/altars/altargaea.base.112.png
+gods/altars/altargaea.base.113.png
+gods/altars/altargaea.base.114.png
+gods/altars/altargaea.base.LICENSE
+gods/altars/altargaea_intervention.base.111.png
+gods/altars/altargaea_intervention.base.112.png
+gods/altars/altargaea_intervention.base.113.png
+gods/altars/altargaea_intervention.base.114.png
+gods/altars/altargaea_intervention.base.LICENSE
+gods/altars/altargnarg.arc
+gods/altars/altargnarg.face
+gods/altars/altargnarg.base.112.png
+gods/altars/altargnarg.base.113.png
+gods/altars/altargnarg.base.114.png
+gods/altars/altargnarg.base.LICENSE
+gods/altars/altargnarg_intervention.base.111.png
+gods/altars/altargnarg_intervention.base.112.png
+gods/altars/altargnarg_intervention.base.113.png
+gods/altars/altargnarg_intervention.base.114.png
+gods/altars/altargnarg_intervention.base.LICENSE
+gods/altars/altargoro.arc
+gods/altars/altargoro.face
+gods/altars/altargoro_intervention.base.111.png
+gods/altars/altargoro_intervention.base.112.png
+gods/altars/altargoro_intervention.base.113.png
+gods/altars/altargoro_intervention.base.114.png
+gods/altars/altargoro_intervention.base.LICENSE
+gods/altars/altarixalovh.arc
+gods/altars/altarixalovh.face
+gods/altars/altarixalovh.base.112.png
+gods/altars/altarixalovh.base.113.png
+gods/altars/altarixalovh.base.114.png
+gods/altars/altarixalovh.base.LICENSE
+gods/altars/altarixalovh_intervention.base.111.png
+gods/altars/altarixalovh_intervention.base.112.png
+gods/altars/altarixalovh_intervention.base.113.png
+gods/altars/altarixalovh_intervention.base.114.png
+gods/altars/altarixalovh_intervention.base.LICENSE
+gods/altars/altarlyth.arc
+gods/altars/altarlyth.face
+gods/altars/altarlyth.base.112.png
+gods/altars/altarlyth.base.113.png
+gods/altars/altarlyth.base.114.png
+gods/altars/altarlyth.base.LICENSE
+gods/altars/altarlyth_intervention.base.111.png
+gods/altars/altarlyth_intervention.base.112.png
+gods/altars/altarlyth_intervention.base.113.png
+gods/altars/altarlyth_intervention.base.114.png
+gods/altars/altarlyth_intervention.base.LICENSE
+gods/altars/altarmostr.arc
+gods/altars/altarmostr.face
+gods/altars/altarmostr.base.112.png
+gods/altars/altarmostr.base.113.png
+gods/altars/altarmostr.base.114.png
+gods/altars/altarmostr.base.LICENSE
+gods/altars/altarmostr_intervention.base.111.png
+gods/altars/altarmostr_intervention.base.112.png
+gods/altars/altarmostr_intervention.base.113.png
+gods/altars/altarmostr_intervention.base.114.png
+gods/altars/altarmostr_intervention.base.LICENSE
+gods/altars/altarrugg.arc
+gods/altars/altarrugg.face
+gods/altars/altarrugg_intervention.base.111.png
+gods/altars/altarrugg_intervention.base.112.png
+gods/altars/altarrugg_intervention.base.113.png
+gods/altars/altarrugg_intervention.base.114.png
+gods/altars/altarrugg_intervention.base.LICENSE
+gods/altars/altarsori.arc
+gods/altars/altarsori.face
+gods/altars/altarsori_intervention.base.111.png
+gods/altars/altarsori_intervention.base.112.png
+gods/altars/altarsori_intervention.base.113.png
+gods/altars/altarsori_intervention.base.114.png
+gods/altars/altarsori_intervention.base.LICENSE
+gods/altars/altarvalk.face
+gods/altars/altarvalk.base.112.png
+gods/altars/altarvalk.base.113.png
+gods/altars/altarvalk.base.114.png
+gods/altars/altarvalk.base.LICENSE
+gods/altars/altarvalk_intervention.base.112.png
+gods/altars/altarvalk_intervention.base.113.png
+gods/altars/altarvalk_intervention.base.114.png
+gods/altars/altarvalk_intervention.base.LICENSE
+gods/altars/altarvalr.face
+Rick Tanner 2026-Nov-27
+
 Add .LICENSE sidecars for all 13 face sets in gods/altars, crediting
 David Sundqvist's original 0.93.3 and 0.95.2 altar art (sourced from 
 the release archive and the January 1999 mailing list) and the later 
