@@ -2,3 +2,45 @@ face altarlyth.111
 magicmap grey
 visibility 50
 end
+face altarlyth.112
+magicmap grey
+visibility 50
+end
+face altarlyth.113
+magicmap grey
+visibility 50
+end
+face altarlyth.114
+magicmap grey
+visibility 50
+end
+face altarlyth_intervention.111
+magicmap grey
+visibility 50
+end
+face altarlyth_intervention.112
+magicmap grey
+visibility 50
+end
+face altarlyth_intervention.113
+magicmap grey
+visibility 50
+end
+face altarlyth_intervention.114
+magicmap grey
+visibility 50
+end
+animation altar_lythander
+altarlyth.111
+altarlyth.112
+altarlyth.113
+altarlyth.114
+altarlyth.113
+altarlyth.112
+mina
+animation altar_lythander_intervention
+altarlyth_intervention.111
+altarlyth_intervention.112
+altarlyth_intervention.113
+altarlyth_intervention.114
+mina
