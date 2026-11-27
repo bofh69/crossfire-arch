@@ -22,3 +22,19 @@ face altarsori.116
 magicmap grey
 visibility 50
 end
+face altarsori_intervention.111
+magicmap grey
+visibility 50
+end
+face altarsori_intervention.112
+magicmap grey
+visibility 50
+end
+face altarsori_intervention.113
+magicmap grey
+visibility 50
+end
+face altarsori_intervention.114
+magicmap grey
+visibility 50
+end
