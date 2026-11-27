@@ -2,3 +2,45 @@ face altargaea.111
 magicmap grey
 visibility 50
 end
+face altargaea.112
+magicmap grey
+visibility 50
+end
+face altargaea.113
+magicmap grey
+visibility 50
+end
+face altargaea.114
+magicmap grey
+visibility 50
+end
+face altargaea_intervention.111
+magicmap grey
+visibility 50
+end
+face altargaea_intervention.112
+magicmap grey
+visibility 50
+end
+face altargaea_intervention.113
+magicmap grey
+visibility 50
+end
+face altargaea_intervention.114
+magicmap grey
+visibility 50
+end
+animation altar_gaea
+altargaea.111
+altargaea.112
+altargaea.113
+altargaea.114
+altargaea.113
+altargaea.112
+mina
+animation altar_gaea_intervention
+altargaea_intervention.111
+altargaea_intervention.112
+altargaea_intervention.113
+altargaea_intervention.114
+mina
