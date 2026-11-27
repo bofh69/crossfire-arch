@@ -4,6 +4,7 @@ comment The 0.93.3 XBM and XPM are byte-identical to the 1999-03-29 CVS import.
 comment The 0.93.3 README and CHANGES credit David Sundqvist with many new images and the specialized altars.
 comment Converted to PNG by mwedel in 2000, renamed to altargnarg.base.111.png at 32x32 in 2001, recompressed by akirschbaum in 2008.
 comment Club graphic pixels and colours touched up by Rick Tanner (rjtanner) on 2012-04-21 (commit d2ca129fc).
+comment Animation frames 112-114 added by Rick Tanner on 2026-07-30, derived from frame 111.
 comment License from the 0.93.3 distribution, which ships the GPL v2 License file and a README notice allowing version 2 or any later version.
 sourcename David Sundqvist
 sourceurl https://crossfire.real-time.com/download/archive/crossfire-0.93.3.arch.tar.gz

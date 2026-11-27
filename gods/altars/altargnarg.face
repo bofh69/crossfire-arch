@@ -2,3 +2,45 @@ face altargnarg.111
 magicmap grey
 visibility 50
 end
+face altargnarg.112
+magicmap grey
+visibility 50
+end
+face altargnarg.113
+magicmap grey
+visibility 50
+end
+face altargnarg.114
+magicmap grey
+visibility 50
+end
+face altargnarg_intervention.111
+magicmap grey
+visibility 50
+end
+face altargnarg_intervention.112
+magicmap grey
+visibility 50
+end
+face altargnarg_intervention.113
+magicmap grey
+visibility 50
+end
+face altargnarg_intervention.114
+magicmap grey
+visibility 50
+end
+animation altar_gnarg
+altargnarg.111
+altargnarg.112
+altargnarg.113
+altargnarg.114
+altargnarg.113
+altargnarg.112
+mina
+animation altar_gnarg_intervention
+altargnarg_intervention.111
+altargnarg_intervention.112
+altargnarg_intervention.113
+altargnarg_intervention.114
+mina
